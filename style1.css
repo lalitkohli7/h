@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Set the body height to full viewport height */
+}
+
+.container {
+    width: 600px; /* Set the width of the container */
+    max-width: 90%; /* Limit the maximum width */
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+}
+
+.box {
+    width: 200%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px;
+}
+
+#submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+#submit:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: #333; /* Dark gray text color */
+}
